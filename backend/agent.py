@@ -85,7 +85,7 @@ agent = create_agent()
 
 result = agent.invoke(
         {
-            "input": "can you please multiply 23 and 34",
+            "input": "can you please multiply 233 and 341",
             "chat_history": {},
         }
     )
