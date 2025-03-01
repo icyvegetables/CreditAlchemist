@@ -1,7 +1,7 @@
 # CodeFest2025
+
 AI-powered debt prioritization system using MongoDB, LangChain, FastAPI
 
-<<<<<<< HEAD
 ## Getting started
 
 ### Setting up VS Code with Python for Backend
@@ -18,7 +18,7 @@ AI-powered debt prioritization system using MongoDB, LangChain, FastAPI
    - Run the following command to create a virtual environment:
 
      ```sh
-     python -m venv venv
+     python3 -m venv venv
      ```
 
 3. **Activate the Virtual Environment**:
@@ -41,6 +41,21 @@ AI-powered debt prioritization system using MongoDB, LangChain, FastAPI
      ```sh
      pip install -r requirements.txt
      ```
-=======
-hello
->>>>>>> 9e9116601734ee54bcc3ff2b5bc6e3a4bf7792a9
+
+### To run the Backend Server
+
+1. **Navigate to the Backend Directory** (if not already there):
+
+   ```sh
+   cd backend
+   ```
+
+2. **Start the FastAPI Server**:
+   - Run the following command to start the FastAPI server:
+
+     ```sh
+     fastapi dev main.py
+     ```
+
+3. **Access the API Documentation**:
+   - Open your web browser and navigate to `http://127.0.0.1:8000/docs` to view the interactive API documentation.
