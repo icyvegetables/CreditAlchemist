@@ -1,5 +1,4 @@
 from typing import Union
-
 from fastapi import FastAPI
 from pymongo import MongoClient
 
@@ -28,6 +27,22 @@ def read_item(item_id: int, q: Union[str, None] = None) -> dict[str, Union[int, 
         dict: A dictionary containing the item ID and the query parameter.
     """
     return {"item_id": item_id, "q": q}
+
+
+@app.get("/cc")
+def get_credit_cards() -> list[dict]:
+    """
+    Endpoint to get all credit cards.
+
+    Returns:
+        list: a list of all credit cards.
+    """
+
+    credit_cards_list = []
+    for credit_card in db["cc_info"].find({}, {"_id": 0}):
+        credit_cards_list.append(credit_card)
+    return credit_cards_list
+
 
 @app.get("/chats")
 def get_chats():
