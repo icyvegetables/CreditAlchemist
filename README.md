@@ -1,6 +1,7 @@
 # CodeFest2025
 AI-powered debt prioritization system using MongoDB, LangChain, FastAPI
 
+<<<<<<< HEAD
 ## Getting started
 
 ### Setting up VS Code with Python for Backend
@@ -40,3 +41,6 @@ AI-powered debt prioritization system using MongoDB, LangChain, FastAPI
      ```sh
      pip install -r requirements.txt
      ```
+=======
+hello
+>>>>>>> 9e9116601734ee54bcc3ff2b5bc6e3a4bf7792a9
