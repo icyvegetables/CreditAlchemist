@@ -12,8 +12,8 @@
       "interestRate": 28,
       "interestChargeDate": "2025-02-2024",
       "pastDueAmount": 0,
-      "amountOverLimit": 0,
- 
+      "amountOverLimit": 0
+
     },
     {
       "creditorName": "Capitol One",
@@ -21,14 +21,14 @@
       "creditLimit": 500,
       "availableCredit": 43,
       "minimumPaymentDue": 25,
-      "minimumPaymentStandard": 25.
+      "minimumPaymentStandard": 25,
       "minimumPaymentDueDate": "2025-03-19",
       "currentMonth": 3,
       "currentYear": 2025,
       "interestRate": 28,
       "interestChargeDate": "2025-02-24",
       "pastDueAmount": 0,
-      "amountOverLimit": 0,
+      "amountOverLimit": 0
     },
     {
       "creditorName": "Premier Bank",
@@ -43,7 +43,7 @@
       "interestRate": 36,
       "interestChargeDate": "2025-02-24",
       "pastDueAmount": 331,
-      "amountOverLimit": 235,
+      "amountOverLimit": 235
     },
     {
       "creditorName": "Destiny Mastercard",
@@ -58,7 +58,7 @@
       "interestRate": 36,
       "interestChargeDate": "2025-02-24",
       "pastDueAmount": 106,
-      "amountOverLimit": 192,
+      "amountOverLimit": 192
     },
     {
       "creditorName": "Aspire Mastercard",
@@ -73,7 +73,7 @@
       "interestRate": 26,
       "interestChargeDate": "2025-02-24",
       "pastDueAmount": 324,
-      "amountOverLimit": 316,
+      "amountOverLimit": 316
     }
   ]
   
